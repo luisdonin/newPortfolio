@@ -1,0 +1,117 @@
+/* Reset styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body styles */
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    line-height: 1.4;
+    color: #333;
+    background-color: #4767ac;
+  }
+  
+  /* Header styles */
+  header {
+    background-color: #3b5998;
+    color: #3b5998;
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+
+  
+  nav a {
+    color: #3b5998;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  nav a:hover{
+    color:#fff; 
+  }
+
+  
+  /* Main styles */
+  main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+  }
+  
+  /* Video player styles */
+  .video-player {
+    margin-bottom: 2rem;
+    background-color: #3b5998;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .video-player h2 {
+    font-size: 2rem;
+    margin: 1rem;
+    
+    color: #fff;
+    padding: 5px;
+  }
+  .video-player h2:hover{
+    color: black;
+  }
+  
+  .video-player video {
+    display: block;
+    width: 50%;
+    margin: auto;
+    height: auto;
+    border-radius: 5px;
+
+  }
+  
+  .button {
+    display: inline-block;
+    background-color: #fff;
+    color: #3b5998;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 18px;
+    transition: all 0.2s;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border: 2px solid #fff;
+    transition: all 0.2s;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+}
+
+.button:hover {
+    background-color: #3b5998;
+    color: #fff;
+    border-color: #3b5998;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+}
+  
+  
+  /* Footer styles */
+  footer {
+    background-color: #444;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+  }
+  
+  footer p {
+    margin: 0;
+    font-size: 0.8rem;
+  }
+  

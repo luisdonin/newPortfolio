@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>About Me</title>
+	<!-- Add any necessary CSS stylesheets here -->
+	<style>
+		body {
+            background-color: #3b5998;
+			font-family: sans-serif;
+			margin: 0;
+			padding: 0;
+		}
+		
+		.hero {
+			background-color: #3b5998;
+			color: #fff;
+			padding: 50px;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			flex-wrap: wrap;
+		}
+		
+		.hero-image {
+			flex: 1 1 300px;
+			max-width: 300px;
+			margin-right: 50px;
+			border-radius: 50%;
+			overflow: hidden;
+		}
+		
+		.hero-image img {
+			width: 100%;
+			height: auto;
+			display: block;
+		}
+		
+		.hero-text {
+			flex: 1 1 300px;
+			max-width: 700px;
+		}
+		
+		.hero-text h1 {
+			font-size: 36px;
+			margin-top: 0;
+			margin-bottom: 20px;
+		}
+		
+		.hero-text p {
+			font-size: 18px;
+			line-height: 1.5;
+			margin-top: 0;
+			margin-bottom: 20px;
+		}
+		
+		.button {
+			display: inline-block;
+			background-color: #fff;
+			color: #3b5998;
+			padding: 10px 20px;
+			border-radius: 5px;
+			text-decoration: none;
+			font-size: 18px;
+			transition: all 0.2s;
+			margin-right: 10px;
+			margin-bottom: 10px;
+			border: 2px solid #fff;
+			transition: all 0.2s;
+			box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+		}
+		
+		.button:hover {
+			background-color: #3b5998;
+			color: #fff;
+			border-color: #3b5998;
+			box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+		}
+		
+		@media (max-width: 768px) {
+			.hero {
+				padding: 30px;
+			}
+			
+			.hero-image {
+				margin-right: 30px;
+			}
+			
+			.hero-text {
+				margin-top: 30px;
+			}
+			
+			.button {
+				display: block;
+				margin-right: 0;
+			}
+		}
+	</style>
+</head>
+<body>
+	<div class="hero"> 
+		<div class="hero-image">
+			<img src="photos/profile.png" alt="Profile picture">
+		</div>
+		<div class="hero-text">
+			<h1>Hi, I'm José Luis B. Donin</h1>
+			<p>I am a results driven professional, interested in innovation and
+                technology, I’m fluent in English and Portuguese, experienced in
+                translation, teaching and project management. Creator of English fluency assessment methods, translation of
+                contracts and academic documents. Computer Engineering student.</p>
+            <p>Email: jluisbdonin@gmail.com</p>
+            <p>Phone: +55 45 9 8403-9870</p>
+            <p>Programming Languages: C & Python</p>
+            <a href="https://github.com/luisdonin" class="button"> Github</a>
+            <a href="portfolio.html" class="button"> Video  Portfolio</a>
+            
+			
+		</div>
+	</div>
+</body>
+</html>

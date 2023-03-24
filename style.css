@@ -97,6 +97,13 @@ video {
     max-width: 85%;
     height: auto;
     border-radius: 10px;
+    opacity: 0;
+    transition: 2.5s;
+}
+video:hover{
+    opacity: 1;
+    transition: 2.5s;
+    outline: 2px #3b5998 solid;
 }
 
 

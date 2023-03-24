@@ -29,9 +29,13 @@ function playNextVideo() {
 		firstVideo.play();
 	}
 }
+const main = document.querySelector('.fade-in');
 
-// Add an event listener to each video element that calls the playNextVideo function when it ends
-document.querySelectorAll('.carousel-item video').forEach(video => {
-	video.addEventListener('ended', playNextVideo);
+window.addEventListener('scroll', function() {
+  const scrollPosition = window.scrollY + window.innerHeight;
+  const elementPosition = main.offsetTop + main.offsetHeight;
+
+  if (scrollPosition > elementPosition) {
+    main.style.opacity = 1;
+  }
 });
-

@@ -95,6 +95,16 @@ video {
     max-width: 85%;
     height: auto;
     border-radius: 10px;
+<<<<<<< Updated upstream
+=======
+    outline: 2px #72449e solid;
+    opacity: 0;
+    transition: 2.5s;
+}   
+video:hover{
+    opacity: 1;
+    
+>>>>>>> Stashed changes
 }
 
 
